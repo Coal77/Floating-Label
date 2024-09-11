@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="floatingLabel.css">
+</head>
+<body>
+    <div class="inputgroup">
+        <input type="text" required id="nameInput">
+        <label for="">surname</label>
+    </div>
+    <div class="inputgroup">
+        <input type="password" id="passwordInput" required>
+        <label for="">Password</label>
+    </div>
+
+
+
+    <!-- <script type="text/javascript">
+        var userName = document.getElementById("nameInput");
+        var userPassword = document.getElementById("passwordInput");
+        var label = document.getElementsByTagName("label");
+
+        label[0];
+        userName.addEventListener("blur", hover)
+        /*function hover() {
+            label[0].style.top = "0";
+            label[0].style.background = "#010031";
+            label[0].style.fontSize = "14px";
+        }*/
+        function hover() {
+            if (userName.innerHTML == "true") {
+                label[0].style.top = "0";
+                label[0].style.background = "#010031";
+                label[0].style.fontSize = "14px";
+            } else if(userName.innerHTML !== "true") {
+                label[0].style.top = "50%";
+                label[0].style.background = "yellow";
+                label[0].style.fontSize = "16px";
+            }
+        }
+        
+    </script> -->
+</body>
+</html>
